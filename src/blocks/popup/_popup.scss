@@ -1,0 +1,75 @@
+.page__overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, .6);
+		overflow: auto;
+		padding: 15px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		z-index: 999
+}
+
+.page__overlay_modal {
+		display: none
+}
+
+.page__overlay_modal_open {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex
+}
+
+.modal {
+		position: relative;
+		background-color: #fff;
+		border: 1px solid #646464;
+		-webkit-border-radius: 14px;
+		-moz-border-radius: 14px;
+		border-radius: 14px;
+		margin: auto;
+		min-width: 290px;
+		padding: 40px 15px;
+		z-index: 999
+}
+
+.modal__close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		color: #000;
+		-webkit-transition: color .2s;
+		-o-transition: color .2s;
+		-moz-transition: color .2s;
+		transition: color .2s
+}
+
+.modal__close:focus {
+		color: #e87c40
+}
+
+.modal__close:active {
+		color: #3b557d
+}
+
+.modal__close-svg {
+		fill: currentColor
+}
+
+.modal__title {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 120%;
+		text-align: center;
+		text-transform: uppercase;
+		max-width: 224px;
+		margin: 0 auto 30px
+}
+

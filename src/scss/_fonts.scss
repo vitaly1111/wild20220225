@@ -1,0 +1,21 @@
+
+  @font-face {
+    font-family: 'SlabPro';
+    src:  url('../fonts/DINNextSlabPro-Bold.woff2') format(woff2),
+		url('../fonts/DINNextSlabPro-Bold.woff') format(woff),
+		url('../fonts/DINNextSlabPro-Bold.ttf') format(ttf);
+    font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+  }
+
+  
+  @font-face {
+    font-family: 'GroteskMedium';
+    src:  url('../fonts/FellbaumGrotesk-Medium.woff2') format(woff2),
+		url('../fonts/FellbaumGrotesk-Medium.woff') format(woff),
+		url('../fonts/FellbaumGrotesk-Medium.ttf') format(ttf),;
+    font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+  }
